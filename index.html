@@ -313,7 +313,9 @@
             100% { transform: translateY(0px); }
         }
          audio {
-    width: 100%;       /* O áudio ocupa 100% da div container-audio */
+width: 100%;       /* O contêiner ocupa a largura total disponível */
+    max-width: 400px;  /* Tamanho máximo que o controle vai assumir */
+    margin: 0 auto;    /* Centraliza na tela */
   }
         /* Responsive Design */
         @media (max-width: 768px) {
